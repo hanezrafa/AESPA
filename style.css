@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Shoika;
+    src: url(shoika-light.ttf);
+}
+body {
+    background-color: black;
+    margin: 0;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    margin-bottom: 100px;
+}
+img {
+    height: 143.6px;
+    width: 388px;
+}
+div{
+    margin-bottom: 50px;
+}
+.music {
+    height: 100px;
+    padding-top: 20px;
+}
+.under-music {
+    background-color: black;
+    height: 30px;
+    width: 150px;
+}
+a{
+    text-decoration: none;
+    
+}
+button {
+    color: #3d4c4d ;    
+    height: 40px;
+    width: 150px;
+    border: #3d4c4d solid;
+    background-color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+button:hover{
+    border-color: white;
+    color: white;
+}

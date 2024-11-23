@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="music.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div class="content"><img src="img/cover.jpg"><button id="playButton" onclick="togglePlay()">▶️</button></div>
+        <div class="text">
+            <h4>aespa</h4>
+            <h4>Drama</h4>
+            <h4>The 4th Mini Album</h4>
+        </div>
+        <div class="content"><img src="img/cover2.jpg"></div>
+        <div class="text">
+            <h4>aespa</h4>
+            <h4>Armageddon</h4>
+            <h4>The 1st Mini Album</h4>
+        </div>
+        <div class="member">
+            <audio id="myAudio" src="music/drama.mp3"></audio>
+            
+
+            <script>
+                function togglePlay() {
+                    const audio = document.getElementById('myAudio');
+                    const button = document.getElementById('playButton');
+            
+                    if (audio.paused) {
+                        audio.play();
+                        button.innerHTML = '⏸️'; // Change to pause symbol
+                    } else {
+                        audio.pause();
+                        button.innerHTML = '▶️'; // Change back to play symbol
+                    }
+                }
+            </script>
+        </div>
+    </center>
+    
+</body>
+</html>
