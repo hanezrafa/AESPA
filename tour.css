@@ -253,6 +253,7 @@ div.venue{
 .venue img{
    float: left;
    margin-left: 20px;
+   margin-top: 10px;
 }
 .venue p{
    font-family: 'Radomir Tinkov QanelasSoftLight';
@@ -267,5 +268,21 @@ div.venue{
 .venue a:hover{
    color: rgb(140, 138, 143);
 }
+img.phone{
+   padding-top: 50px;
+}
+p.phone{
+   margin-left: 30px;
+   float: left;
+}
+p.kent{
+   padding-top: 15px;
+   margin-left: 30px;
+   float: left;
+}
+img.mexico{
+   padding-top: 35px;
+}
+
 
 
