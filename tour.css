@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.cdnfonts.com/css/tt-travels-trl');
+html {
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: TT Travels Next Regular;
+    src: url(font/TT\ Travels\ Next\ Trial\ Regular.ttf);
+    font-family: Shoika;
+    src: url(font/shoika-light.ttf);
+    font-family: TT Travels Next DemiBold;
+    src: url(font/TT\ Travels\ Next\ Trial\ DemiBold.ttf);
+
+    font-family: Radomir Tinkov QanelasSoftLight;
+    src: url(font/Radomir\ Tinkov\ \ QanelasSoftLight.otf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 1100px;
+    width:100%;
+    background-color: rgb(172, 170, 170);
+    
+
+    
+}
+.navbar a {
+   font-family: 'Poppins', sans-serif;
+   position: relative;
+   font-size: 18px;
+   color: #fff;
+   font-weight: 500;
+   text-decoration: none;
+   margin-left: 40px;
+}
+
+.navbar a::before {
+   content: '';
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 0;
+   height: 2px;
+   background: #fff;
+}
+.navbar a:hover::before {
+   width: 100%;
+   transition: 0.5s;
+}
+a{
+    text-decoration: none;
+    
+}
+.header {
+    box-sizing: border-box;
+    padding: 20px 100px;
+    
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+ .aespa{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+ }
+ div.banner{
+    background-color: black;
+    background-position: top;
+    background-size: cover;
+    height: 360px;
+    width: 1000px;
+    margin-top: 100px;
+ }
+ h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 100px;
+    justify-content: left;
+    margin: 0;
+
+ }
+
+ .banner img{
+    width: 220px;
+    height: 220px;
+    float: right;
+    padding-top: 50px;
+    padding-right: 40px;
+ }
+ .content1 p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    padding-right: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0;
+    text-align: left;
+ }
+ div.content1{
+    margin: 20px;
+    margin-right: 0;
+    width: 350px;
+    height: 320px;
+    float: left;
+ }
+.content1 img{
+    width: 30px;
+    height: 38px;
+    margin: 0;
+    margin-left: 30px;
+    padding-right: 0;
+    padding-top: 5px;
+    float: left;
+    background-color: white;
+    border-radius: 40px;
+ }
+span.details{
+    text-decoration: none;
+    font-weight: lighter;
+    color: rgb(201, 190, 194);
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+div.content2{
+    margin-top: 20px;
+    width: 350px;
+    height: 320px;
+    float: left;
+}
+.content2 img{
+    width: 30px;
+    height: 38px;
+    margin-top: 105px;
+    margin-left: 30px;
+    padding-right: 0;
+    padding-top: 5px;
+    float: left;
+    fill: white;
+ }
+ .content2 p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    padding-right: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 105px;
+    text-align: left;
+ }
+ div.notif{
+    width: 1000px;
+    height: 120px;
+    background-color: white;
+    border-radius: 4px;
+ }
+ .notif h2{
+    color: black;
+    font-family: 'Radomir Tinkov QanelasSoftLight';
+    float: left;
+    margin: 0;
+    padding-top: 30px;
+    margin-left: 20px;
+
+ }
+ button{
+    float: left;
+    margin-top: 35px;
+    margin-left: 60px;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    transition: 0.2s;
+ }
+ button:hover{
+   background-color: rgb(194, 192, 197);
+   transition: 0.2s;
+ }
+ button p{
+    color: rgb(0, 0, 0);
+    font-family: 'Radomir Tinkov QanelasSoftLight';
+    font-size:larger;
+    margin: 0;
+    justify-content: center;
+ }
+ div.maps{
+   float: left;
+   margin-top: 10px;
+   margin-left: 260px;
+   width: 650px;
+   height: auto;
+   background-color: #fff;
+   border-radius: 4px;
+ }
+ .maps h2{
+   margin: 0;
+   text-align: left;
+   padding-top: 20px;
+   padding-left: 20px;
+   color: black;
+   font-family: 'Radomir Tinkov QanelasSoftLight';
+ }
+ iframe{
+   margin: 25px;
+ }
+ div.share{
+   width: 340px;
+   height: 70px;
+   background-color: rgb(255, 255, 255);
+   float: right;
+   margin-right: 260px;
+   margin-top: 10px;
+   border-radius: 4px;
+
+
+ }
+.share h2{
+   margin-left: 20px;
+   color: black;
+   font-family: 'Radomir Tinkov QanelasSoftLight';
+   padding: 0;
+}
+
+.share img{
+   width: 20px;
+   height: 20px;
+}
+div.venue{
+   margin-top: 30px;
+   border-radius: 4px;
+   width: 340px;
+   height: 250px;
+   background-color: #fff;
+}
+.venue h2{
+   padding-top: 20px;
+}
+
+.venue h2 span{
+   font-size: large;
+}
+.venue img{
+   float: left;
+   margin-left: 20px;
+}
+.venue p{
+   font-family: 'Radomir Tinkov QanelasSoftLight';
+   margin-right: 90px;
+   float: right;
+   margin-top: 0;
+}
+.venue a{
+   text-decoration: none;
+   color: #000;
+}
+.venue a:hover{
+   color: rgb(140, 138, 143);
+}
+
+

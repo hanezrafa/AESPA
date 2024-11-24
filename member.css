@@ -5,11 +5,11 @@ html {
 }
 @font-face {
     font-family: TT Travels Next Regular;
-    src: url(TT\ Travels\ Next\ Trial\ Regular.ttf);
+    src: url(font/TT\ Travels\ Next\ Trial\ Regular.ttf);
     font-family: Shoika;
-    src: url(shoika-light.ttf);
+    src: url(font/shoika-light.ttf);
     font-family: TT Travels Next DemiBold;
-    src: url(TT\ Travels\ Next\ Trial\ DemiBold.ttf);
+    src: url(font/TT\ Travels\ Next\ Trial\ DemiBold.ttf);
 
 }
 body {

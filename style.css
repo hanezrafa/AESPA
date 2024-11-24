@@ -1,6 +1,6 @@
 @font-face {
     font-family: Shoika;
-    src: url(shoika-light.ttf);
+    src: url(font/shoika-light.ttf);
 }
 body {
     background-color: black;
